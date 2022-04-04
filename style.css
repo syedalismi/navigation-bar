@@ -1,0 +1,80 @@
+body{
+    margin: 0;
+    padding: 0px;
+    font-family: 'Verdana', Times, serif;
+}
+.header{
+    width: 100%;
+    height: 60px;
+    background-color: rgb(86, 255, 80);
+    display: inline-block;
+    box-shadow: 6px 6px 6px rgb(173, 122, 255);
+}
+.logo{
+    font-weight: 800;
+    font-size: 4em;
+    width: 10%;
+    float: left;
+    height: inherit;
+    text-align: center;
+    line-height: 50px;
+    overflow: hidden;
+}
+.links{
+    float: left;
+    width: 50%;
+    height: inherit;
+    overflow: hidden;
+}
+.links ul{
+    list-style: none;
+}
+.links ul li{
+    display: inline;
+    margin: auto 5px;
+    padding: 7px 4px 7px 4px;
+    text-align: center;
+}
+.links ul li a{
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+    font-size: 1.1em;
+}
+.links ul li:hover{
+    border: 1px solid rgb(97, 94, 94);
+    border-radius: 5px;
+}
+.search{
+    float: left;
+    width: 20%;
+    height: inherit;
+    overflow: hidden;
+    text-align: center;
+    line-height: 50px;
+}
+.search input{
+    width: 100%;
+    padding: 5px;
+    font-size: 1.1em;
+    border-radius: 4px;
+    border: none;
+}
+.auth{
+    float: right;
+    width: 20%;
+    height: inherit;
+    overflow: hidden;
+    text-align: center;
+    line-height: 50px;
+}
+.auth button{
+    border: none;
+    padding: 4px 7px 4px 7px;
+    font-size: 1.1em;
+    border-radius: 5px;
+}
+.auth button:hover{
+    color: #fff;
+    background-color: rgba(248, 209, 82, 0.877);
+}
